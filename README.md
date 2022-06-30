@@ -4,7 +4,7 @@
 ## 我所做的
 - https://github.com/zxing/zxing ，将整个项目克隆下来。
 - 将android这个eclipse项目中的文件分门别类的复制到新建的Android Studio项目下。
-- 去https://repo1.maven.org/maven2/com/google/zxing/core/（网址是zxing文档中提到的），下载最新的jar包放入到libs文件夹下导入到AndroidStudio项目中，build.gradle中dependencies中末尾添加
+- 去https://repo1.maven.org/maven2/com/google/zxing/core/ （网址是zxing文档中提到的），下载最新的jar包放入到libs文件夹下导入到AndroidStudio项目中，build.gradle中dependencies中末尾添加
 `
 implementation fileTree(include: ['*.jar'], dir: 'libs')
 `
